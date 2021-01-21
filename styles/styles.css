@@ -1,129 +1,140 @@
 * {
-    border: 0 solid black;
+  border: 0 solid black;
 }
 .header {
-    background-color: #68bacf;
-    color: 	#FFFFFF;
-    padding: 2rem 0 2rem 7%;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #68bacf;
+  color: #ffffff;
+  padding: 2rem 0 2rem 7%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 3.5em;
+  font-weight: bold;
+  font-size: 3.5em;
 }
 h2 {
-    font-weight: 200;
-    font-size: 1.8em;
-    font-style: italic;
+  font-weight: 200;
+  font-size: 1.8em;
+  font-style: italic;
 }
 .h3-unique {
-    font-weight: bold;
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem 0 .5rem 10%;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 0 0.5rem 10%;
+}
+main {
+  display: flex;
 }
 .div-width {
-    width: 70%;
-    padding-bottom: 10rem;
+  width: 70%;
+  padding-bottom: 10rem;
 }
 aside {
-    float: right;
-    padding: 3rem 0 0 0;
-    line-height: .8rem;
+  width: 30%;
+  padding: 3rem 0 0 0;
+  line-height: 0.8rem;
 }
 nav.top {
-    color: #000000;
-    background-color: #d9dbda;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    display: flex;
-    text-decoration: none;
-    padding: 0 0 0 10%;
+  color: #000000;
+  background-color: #d9dbda;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  padding: 0 0 0 10%;
 }
 .bottom-div {
-    color: #FFFFFF;
-    background-color: #000000
+  color: #ffffff;
+  background-color: #000000;
 }
 nav.bottom {
-    color: #FFFFFF;
-    background-color: #000000;
-    padding: 1.5rem 0 0 0;
-    text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1.5rem 0 0 0;
+  text-align: center;
 }
 .link-top {
-    text-decoration: none;
-    color: #000000;
-    padding: 1.5rem 2rem 2rem 0;
+  text-decoration: none;
+  color: #000000;
+  padding: 1.5rem 2rem 2rem 0;
 }
 .link-bottom {
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: #000000;
-    padding: 1.5rem 2rem 2rem 0;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1.5rem 2rem 2rem 0;
 }
 .link-aside {
-    text-decoration: none;
-    color: #68bacf;
+  text-decoration: none;
+  color: #68bacf;
 }
+
+figure {
+  margin: 0;
+}
+
 .figure-aside {
-    padding-left: 0;
+  padding-left: 0;
 }
 .space {
-    padding: 0 0 0 .5rem;
+  padding: 0 0 0 0.5rem;
 }
 .add-space {
-    padding: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
 }
 .redirect {
-    padding: 0 0 0 0;
-    color: #68bacf;
+  padding: 0 0 0 0;
+  color: #68bacf;
 }
 footer {
-    color: #FFFFFF;
-    background-color: #000000;
-    text-align: center;
-    padding: 1.7rem 0 3rem 0;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding: 1.7rem 0 3rem 0;
 }
-.footer-logo {
-    padding: 4rem 0 1.3rem 40%;
+
+aside p {
+  width: 90%;
+  line-height: 1.5rem;
 }
+
 p.footer {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .white {
-    text-align: center;
-    line-height: 1rem;
+  text-align: center;
+  line-height: 1rem;
 }
 p.plain-text {
-    color: #000000;
-    font-size: .95em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 0 0 10%;
-    line-height: 1.5rem;
+  color: #000000;
+  font-size: 0.95em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 0 10%;
+  line-height: 1.5rem;
 }
 p.bold {
-    color: #68bacf;
-    font-size: 1.2em;
-    line-height: 2rem;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem 0 0 10%;
+  color: #68bacf;
+  font-size: 1.2em;
+  line-height: 2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 0 0 10%;
 }
 p.quote {
-    color: #68bacf;
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3rem 0 0 10%;
+  color: #68bacf;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3rem 0 0 10%;
 }
 p.quote-author {
-    color: #68bacf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    font-style: italic;
-    font-weight: 200;
-    padding-left: 10%;
+  color: #68bacf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 200;
+  padding-left: 10%;
 }
 .word-color {
-    color: #68bacf;
+  color: #68bacf;
 }
